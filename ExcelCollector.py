@@ -7,7 +7,7 @@ warnings.filterwarnings('ignore', category=UserWarning, module='openpyxl')
 class ExcelCollector:
     def __init__(self, file_path):
         self.file_path = file_path
-        self.days = 0
+        self.days = 15
         self.areas_list = []
         self.students_list = []
         self.area_student_counts = {}
